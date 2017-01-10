@@ -1,0 +1,38 @@
+{
+  "name": "ct-town-list",
+  "title": "Ct Town List",
+  "description": "List of Connecticut cities and towns along with FIPS codes.",
+  "version": "1.0",
+  "license": {
+    "type": "Open Data Commons Public Domain",
+    "url": "http://opendatacommons.org/licenses/pddl/"
+  },
+  "author": {
+    "name": "Sasha Cuerda",
+    "email": "scuerda@ctdata.org",
+    "web": "http://ctdata.org"
+  },
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "name": "Town",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FIPS",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "name": "town_fips",
+      "title": "Town Fips",
+      "path": "town_fips.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+  ]
+}
